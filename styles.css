@@ -9,10 +9,11 @@ padding-top: 5pt;
 }
 
 h1 {
-font: 14pt Helvetica; 
+font: 16pt Helvetica; 
 font-weight: bold; 
 line-height:20pt;
-background-color: #DAF7A6 
+background-color: #DAF7A6;
+align-content: center;
 }
 
 h2 {
