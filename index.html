@@ -1,29 +1,19 @@
 <!DOCTYPE html>
-<html lang = "en">
-<header>
-  <link rel="stylesheet" type="text/css" href="styles.css"/>
-<h1> The finest widgest are made here!</h1>
-  <h2> Menu </h2>
-<nav>
-<ul>
-<li><a href="#">About Us</a></li>
-<li><a href="#">Products</a></li>
-<li><a href="#">Support</a></li>
-<li><a href="#">Press</a></li>
-</ul>
-</nav>
-</header>
-
-<body>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
-</body>
+<html lang="en">
+  <head>
+    <title> Displaying times and dates</title>
+  </head>
   
-<footer>
-  <p>&copy; 2019 Angela Kim. All rights reserved.</p>
-</footer>
+  <body>
+    <h1>Current Date and Time</h1>
+    <script type="text/javascript">
+      now=new Date(); 
+      localtime= now.toString();
+      utctime=now.toGMTString();
+      document.write("<p><strong>Local time:</strong> " 
+                     +localtime + "</p>");
+      document.write("<p><strong>UTC time:</strong> " +utctime
+                     + "</p>");
+    </script>
+  </body>
 </html>
